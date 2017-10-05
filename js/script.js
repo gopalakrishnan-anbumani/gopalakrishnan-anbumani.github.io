@@ -17,9 +17,9 @@ function loadMenu() {
     menuhtml += '<a class="mdl-navigation__link" href="education">Education</a>';
     menuhtml += '<a class="mdl-navigation__link" href="projects">Projects</a>';
     menuhtml += '<a class="mdl-navigation__link" id="resume-link" target="_blank">Resume</a>';
-    menuhtml += '<a class="mdl-navigation__link" href="https://github.com/manishbisht" target="_blank">Code on Github</a>';
+    menuhtml += '<a class="mdl-navigation__link" href="https://github.com/gopalakrishnan-anbumani" target="_blank">Code on Github</a>';
     menuhtml += '<a class="mdl-navigation__link" href="https://medium.com/@manishbisht" target="_blank">Blog on Medium</a>';
-    menuhtml += '<a class="mdl-navigation__link" href="https://www.quora.com/profile/Manish-Bisht-39" target="_blank">Questions on Quora</a>';
+    menuhtml += '<a class="mdl-navigation__link" href="https://www.quora.com/profile/gopalakrishnan-anbumani" target="_blank">Questions on Quora</a>';
     menuhtml += '<a class="mdl-navigation__link" href="contact">Contact</a>';
     $('#main-menu').html(menuhtml);
 }
@@ -30,8 +30,8 @@ function loadResumeLink() {
 }
 
 function addEmailandNumber() {
-    var email = "manish.bisht490@gmail.com";
-    var mobileNumber = "+91-8559874393";
+    var email = "gopalakrishnanbe16@gmail.com";
+    var mobileNumber = "+91-8248912123";
     $(".email").html(email);
     $(".mobile-number").html(mobileNumber);
 }
