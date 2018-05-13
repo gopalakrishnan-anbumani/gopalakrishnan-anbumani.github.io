@@ -14,7 +14,7 @@ function loadMenu() {
     menuhtml += '<a class="mdl-navigation__link" href="work-experience">Work Experience</a>';
     /*menuhtml += '<a class="mdl-navigation__link" href="competitive-programming">Competitive Programming</a>';*/
     /*menuhtml += '<a class="mdl-navigation__link" href="open-source">Open Source</a>';*/
-    menuhtml += '<a class="mdl-navigation__link" href="education">Education</a>';
+    /*menuhtml += '<a class="mdl-navigation__link" href="education">Education</a>';*/
     menuhtml += '<a class="mdl-navigation__link" href="projects">Projects</a>';
     /*menuhtml += '<a class="mdl-navigation__link" id="resume-link" target="_blank">Resume</a>';*/
     menuhtml += '<a class="mdl-navigation__link" href="https://github.com/gopalakrishnan-anbumani" target="_blank">Code on Github</a>';
