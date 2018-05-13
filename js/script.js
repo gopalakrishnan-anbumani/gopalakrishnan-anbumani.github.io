@@ -3,8 +3,8 @@
  */
 $(document).ready(function () {
     loadMenu();
-    loadResumeLink();
     addEmailandNumber();
+    /*loadResumeLink();*/
     loadYear();
 });
 
