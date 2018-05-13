@@ -12,13 +12,13 @@ function loadMenu() {
     var menuhtml = '<a class="mdl-navigation__link" href="index">Overview</a>';
     menuhtml += '<a class="mdl-navigation__link" href="skills">Skills</a>';
     menuhtml += '<a class="mdl-navigation__link" href="work-experience">Work Experience</a>';
-    menuhtml += '<a class="mdl-navigation__link" href="competitive-programming">Competitive Programming</a>';
-    menuhtml += '<a class="mdl-navigation__link" href="open-source">Open Source</a>';
+    /*menuhtml += '<a class="mdl-navigation__link" href="competitive-programming">Competitive Programming</a>';*/
+    /*menuhtml += '<a class="mdl-navigation__link" href="open-source">Open Source</a>';*/
     menuhtml += '<a class="mdl-navigation__link" href="education">Education</a>';
     menuhtml += '<a class="mdl-navigation__link" href="projects">Projects</a>';
-    menuhtml += '<a class="mdl-navigation__link" id="resume-link" target="_blank">Resume</a>';
+    /*menuhtml += '<a class="mdl-navigation__link" id="resume-link" target="_blank">Resume</a>';*/
     menuhtml += '<a class="mdl-navigation__link" href="https://github.com/gopalakrishnan-anbumani" target="_blank">Code on Github</a>';
-    menuhtml += '<a class="mdl-navigation__link" href="https://medium.com/@manishbisht" target="_blank">Blog on Medium</a>';
+    /*menuhtml += '<a class="mdl-navigation__link" href="https://medium.com/@manishbisht" target="_blank">Blog on Medium</a>';*/
     menuhtml += '<a class="mdl-navigation__link" href="https://www.quora.com/profile/gopalakrishnan-anbumani" target="_blank">Questions on Quora</a>';
     menuhtml += '<a class="mdl-navigation__link" href="contact">Contact</a>';
     $('#main-menu').html(menuhtml);
