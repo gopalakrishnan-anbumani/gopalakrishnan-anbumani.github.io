@@ -36,6 +36,31 @@
                 <h1><strong>My Skills</strong></h1>
                 <div class="mdl-grid" align="left">
                     <div class="mdl-cell mdl-cell--6-col">
+                        <h3><strong>Java</strong></h3>
+                        <img src="images/java-logo.png" align="right">
+                        <div id="Java" class="mdl-progress mdl-js-progress" style="width:auto"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <h3><strong>Spring</strong></h3>
+                        <img src="images/c-logo.png" align="right">
+                        <div id="Spring" class="mdl-progress mdl-js-progress" style="width:auto"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <h3><strong>Android</strong></h3>
+                        <img src="images/android-logo.jpg" align="right">
+                        <div id="Android" class="mdl-progress mdl-js-progress" style="width:auto"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <h3><strong>Algorithms and DataStructure</strong></h3>
+                        <img src="images/cp-logo.png" align="right">
+                        <div id="AD" class="mdl-progress mdl-js-progress" style="width:auto"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <h3><strong>RDBMS</strong></h3>
+                        <img src="images/mysql-logo.png" align="right">
+                        <div id="rdbms" class="mdl-progress mdl-js-progress" style="width:auto"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
                         <h3><strong>HTML</strong></h3>
                         <img src="images/html-logo.png" align="right">
                         <div id="HTML" class="mdl-progress mdl-js-progress" style="width:auto"></div>
@@ -60,41 +85,16 @@
                         <img src="images/php.png" align="right">
                         <div id="PHP" class="mdl-progress mdl-js-progress" style="width:auto"></div>
                     </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <h3><strong>C/C++</strong></h3>
-                        <img src="images/c-logo.png" align="right">
-                        <div id="C" class="mdl-progress mdl-js-progress" style="width:auto"></div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <h3><strong>Java</strong></h3>
-                        <img src="images/java-logo.png" align="right">
-                        <div id="Java" class="mdl-progress mdl-js-progress" style="width:auto"></div>
-                    </div>
                     <!--<div class="mdl-cell mdl-cell--6-col">
                         <h3><strong>Bootstrap</strong></h3>
                         <img src="images/bootstrap-logo.png" align="right">
                         <div id="Bootstrap" class="mdl-progress mdl-js-progress" style="width:auto"></div>
                     </div>-->
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <h3><strong>Android</strong></h3>
-                        <img src="images/android-logo.jpg" align="right">
-                        <div id="Android" class="mdl-progress mdl-js-progress" style="width:auto"></div>
-                    </div>
                     <!--<div class="mdl-cell mdl-cell--6-col">
                         <h3><strong>jQuery</strong></h3>
                         <img src="images/jquery-logo.png" align="right">
                         <div id="jQuery" class="mdl-progress mdl-js-progress" style="width:auto"></div>
                     </div>-->
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <h3><strong>MY SQL</strong></h3>
-                        <img src="images/mysql-logo.png" align="right">
-                        <div id="sql" class="mdl-progress mdl-js-progress" style="width:auto"></div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <h3><strong>Competitive Programming</strong></h3>
-                        <img src="images/cp-logo.png" align="right">
-                        <div id="cp" class="mdl-progress mdl-js-progress" style="width:auto"></div>
-                    </div>
                     <!--<div class="mdl-cell mdl-cell--6-col">
                         <h3><strong>Photoshop</strong></h3>
                         <img src="images/photoshop-logo.png" align="right">
@@ -107,10 +107,10 @@
                     </div>-->
                     <script>
                         document.querySelector('#HTML').addEventListener('mdl-componentupgraded', function () {
-                            this.MaterialProgress.setProgress(50);
+                            this.MaterialProgress.setProgress(40);
                         });
                         document.querySelector('#CSS').addEventListener('mdl-componentupgraded', function () {
-                            this.MaterialProgress.setProgress(50);
+                            this.MaterialProgress.setProgress(40);
                         });
                         document.querySelector('#JS').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(45);
@@ -121,8 +121,8 @@
                         document.querySelector('#PHP').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(40);
                         });
-                        document.querySelector('#C').addEventListener('mdl-componentupgraded', function () {
-                            this.MaterialProgress.setProgress(50);
+                        document.querySelector('#Spring').addEventListener('mdl-componentupgraded', function () {
+                            this.MaterialProgress.setProgress(70);
                         });
                         document.querySelector('#Java').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(80);
@@ -131,15 +131,15 @@
                             this.MaterialProgress.setProgress(75);
                         });
                         document.querySelector('#Android').addEventListener('mdl-componentupgraded', function () {
-                            this.MaterialProgress.setProgress(70);
+                            this.MaterialProgress.setProgress(50);
                         });
                         document.querySelector('#jQuery').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(35);
                         });
-                        document.querySelector('#sql').addEventListener('mdl-componentupgraded', function () {
+                        document.querySelector('#RDBMS').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(60);
                         });
-                        document.querySelector('#cp').addEventListener('mdl-componentupgraded', function () {
+                        document.querySelector('#AD').addEventListener('mdl-componentupgraded', function () {
                             this.MaterialProgress.setProgress(60);
                         });
                         document.querySelector('#Photoshop').addEventListener('mdl-componentupgraded', function () {
