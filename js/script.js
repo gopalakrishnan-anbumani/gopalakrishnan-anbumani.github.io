@@ -30,7 +30,7 @@ function loadResumeLink() {
 }
 
 function addEmailandNumber() {
-    var email = "gopalakrishnanbe16@gmail.com";
+    var email = "gopalakrishnangk@outlook.com";
     var mobileNumber = "+91-8248912123";
     $(".email").html(email);
     $(".mobile-number").html(mobileNumber);
